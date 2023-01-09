@@ -4,10 +4,7 @@ This repository contains a Python script that uses the OpenAI GPT-3 language mod
 #### To use this code, you will need to install the following libraries:
 
 ```
-pip install openpyxl
-pip install openai
-pip install PyPDF2
-pip install python-decouple
+pip install openpyxl openai PyPDF2 python-decouple
 ```
 
 This is an early version of a script that reads in a PDF file, extracts the text from the first page, and uses OpenAI's Completion API to generate a JSON object from the extracted text. The JSON object is then used to populate a new row in an Excel sheet. In the future, the script will be able to process multiple documents and intelligently populate relevant spreadsheets based on the document type.
